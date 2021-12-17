@@ -1,14 +1,81 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "TJ": "TJ SV-SE 34360",
+  "Structured": {
+    "VSTOperationNumber": [],
+    "VehicleType": [
+      {
+        "Type": "224",
+        "Eng": "",
+        "EngDesc": "",
+        "Sales": "",
+        "Body": "",
+        "Gear": "",
+        "Steer": "",
+        "ModelYear": "2019-9999",
+        "Plant": "",
+        "ChassisRange": "-",
+        "StrucWeekRange": "201835-999952"
+      },
+      {
+        "Type": "225",
+        "Eng": "",
+        "EngDesc": "",
+        "Sales": "",
+        "Body": "",
+        "Gear": "",
+        "Steer": "",
+        "ModelYear": "2019-9999",
+        "Plant": "",
+        "ChassisRange": "-",
+        "StrucWeekRange": "201817-999952"
+      },
+      {
+        "Type": "227",
+        "Eng": "",
+        "EngDesc": "",
+        "Sales": "",
+        "Body": "",
+        "Gear": "",
+        "Steer": "",
+        "ModelYear": "2019-9999",
+        "Plant": "",
+        "ChassisRange": "-",
+        "StrucWeekRange": "201846-999952"
+      }
+    ],
+    "DTC": [],
+    "Attachment": [],
+    "CSC": [
+      {
+        "Code": "6K",
+        "Description": "Mobile applications Volvo On Call/Activation problems"
+      },
+      {
+        "Code": "6M",
+        "Description": "Mobile applications Volvo On Call/No information from the vehicle"
+      },
+      {
+        "Code": "JG",
+        "Description": "Volvo On Call/Other Volvo On Call problems"
+      },
+      {
+        "Code": "KY",
+        "Description": "Volvo On Call/Does not work"
+      }
+    ],
+    "Title": "Aktivera Volvo On Call, vilol\u00e4ge",
+    "Status": "Released",
+    "RefNo": "SE34360.1.0 sv-SE",
+    "StatusDate": "2018-12-25",
+    "Issuer": "SYSTEM  -  S Ystem",
+    "IssueDate": "2018-12-25",
+    "Partner": "4 SE PVT PVT",
+    "Reference": ""
+  },
+  "Unstructured": {
+    "Description": "Om det inte går att aktivera Volvo On Call, se råden under \"Service\" för ytterligareinstruktioner om hur VCM ska väckas.Alla nya bilmodeller införda efter vecka 17 2018 utrustade med Volvo On Call har en nyfunktion i VCM som kallas viloläge.Det innebär att VCM övergår till viloläge sedan bilen har lämnats i normalt läge under 7dagar utan att en kund aktiveras och registreras för Volvo On Call-tjänsterna.Detta berör inte äldre bilmodeller, t.ex. XC90, XC60, S90, XC40 o.s.v.",
+    "Service": "1. Anslut bilen till VIDA och gå till \"Diagnostik\", välj sedan \"Servicefunktioner\" och kör diagnossekvensen \"Avaktivera viloläget för styrenhet fordonsuppkoppling (VCM)\"\n 2. Diagnossekvensen finns också under Felsökning, välj 47: fjärrtjänster: Volvo On Call\" i listrutan Funktion, välj \"642 6K Mobilappar Volvo On Call, aktiveringsproblem\" i CSC-listrutan och gå till fliken Diagnossekvenser på vänster sida., Kör diagnossekvensen \"Avaktivera viloläget för styrenhet fordonsuppkoppling (VCM)\".",
+    "VehicleReport": "Skicka in en bilrapport om den servicelösning som beskrivs i denna TJ inte har någon effekt. Använd berört område Fordonsrapport\" och underområdet \"Produktuppföljning\", använd funktionsgrupp 3943.",
+    "WarrantyClaimInformation": "Inga garantianspråk accepteras för arbeten som beskrivs i denna TJ."
   }
 }
